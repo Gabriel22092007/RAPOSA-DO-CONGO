@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Novo Registro</h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Nome completo" class="inputs">
+                <span class="span-requeried">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div>
+                <input type="email" placeholder="Celular ou e-mail" class="inputs">
+                <span class="span-requeried">Digite um email válido</span>
+            </div>
+            <div>
+                <input type="Senha" placeholder="Senha" class="inputs">
+                <span class="span-requeried">Digite uma senha com no mínimo 8 caracteres</span>
+            </div>
+            <div>
+                <input type="Repita" placeholder="Repita sua senha" class="inputs">
+                <span class="span-requeried">Senhas devem ser iguais</span>
+            </div>
+            <div>
+                <label for="diaa">Informe a data do seu nascmento:</label>
+                <input type="date" id="diaa" name="diaa"/>
+            </div>
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio" id="m" value="m" name="sexo">
+                    <label for="">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id="f" value="f" name="sexo2">
+                    <label for="">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" id="o" value="o" name="sexo3">
+                    <label for="">Outro</label>
+                </div>
+            </div>
+            <button type="submit">CADASTRE-SE</button>
+        </form>
+    </div> 
+</body>
+</html>
